@@ -1,0 +1,21 @@
+{
+    "name": "matriphe/telegrambot",
+    "description": "PHP Library for Telegram Bot API.",
+    "keywords": ["telegram", "bot", "telegram bot", "telegram bot api"],
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "~5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Zamroni",
+            "email": "halo@matriphe.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Matriphe\\Telegrambot\\": "src/"
+        }
+    }
+}

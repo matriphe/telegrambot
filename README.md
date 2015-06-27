@@ -49,7 +49,7 @@ var_dump($message);
 
 // Upload file. use fopen function.
 $filepath = '/home/matriphe/photo.jpg';
-$photo = $telegram->sendPhoto(['chat_id' => 1498275, 'photo' => fopen($filepath, 'rb'), 'caption' => 'The caption goes here!']);
+$photo = $telegram->sendPhoto(['chat_id' => $chat_id, 'photo' => fopen($filepath, 'rb'), 'caption' => 'The caption goes here!']);
 var_dump($photo);
 ```
 

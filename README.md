@@ -57,18 +57,18 @@ var_dump($photo);
 
 Based on [Telegram Bot API's method](https://core.telegram.org/bots/api#available-methods).
 
-* getMe()
-* sendMessage()
-* forwardMessage()
-* sendPhoto()
-* sendAudio()
-* sendDocument()
-* sendSticker()
-* sendVideo()
-* sendLocation()
-* sendChatAction()
-* getUserProfilePhotos()
-* getUpdates()
-* setWebhook()
+* `getMe()`
+* `sendMessage()`
+* `forwardMessage()`
+* `sendPhoto()`
+* `sendAudio()`
+* `sendDocument()`
+* `sendSticker()`
+* `sendVideo()`
+* `sendLocation()`
+* `sendChatAction()`
+* `getUserProfilePhotos()`
+* `getUpdates()`
+* `setWebhook()`
 
 Please read Telegram Bot API's method for details. 

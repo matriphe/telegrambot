@@ -37,6 +37,12 @@ class Telegrambot
      */
     public function call($method, $data = null)
     {
+        $headers = [];
+        
+        if ($data) {
+            $headers['Content-Type'] = 'multipart/form-data';
+        }
+        
         $request = $this->client->createRequest(
             'post',
             $this->url.$method,

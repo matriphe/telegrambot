@@ -50,7 +50,7 @@ $message = $telegram->sendMessage([
 ]);
 var_dump($message);
 
-// Upload file. use fopen function.
+// Upload file, use fopen function.
 $filepath = '/home/matriphe/photo.jpg';
 $photo = $telegram->sendPhoto([
     'chat_id' => $chat_id, 
@@ -59,6 +59,8 @@ $photo = $telegram->sendPhoto([
 ]);
 var_dump($photo);
 ```
+
+All returned value are in array.
 
 ## Function List
 
@@ -78,4 +80,4 @@ Based on [Telegram Bot API's method](https://core.telegram.org/bots/api#availabl
 * `getUpdates()`
 * `setWebhook()`
 
-Please read Telegram Bot API's method for details. 
+Please read Telegram Bot API's method for details.
